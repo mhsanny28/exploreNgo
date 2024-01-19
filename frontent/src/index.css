@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+
+.custom-card {
+  display: flex;
+  max-width: 60rem;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+
+
+.img{
+  height: 300px;
+  width: 400px;
+}
+
+.custom-card figure {
+  margin: 0;
+}
+
+.custom-card img {
+  max-width: 90%;
+}
+
+
+.custom-card {
+
+  max-width: 60rem;
+
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  border-radius: 0.5rem; 
+}
+
+.custom-card-body {
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 255, 255, 0.1); 
+}
+
+
+.custom-card-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.custom-card-actions {
+  display: flex;
+  justify-content: flex;
+  margin-top: 20px;
+}
+.desc{
+  font-size: bold;
+  width: 50%;
+
+}
+
+.custom-btn {
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn {
+  background-color: #2980b9;
+  height: 30px;
+}
+.taxi{
+  display: flex;
+  flex-direction: column;
+  gap:20px
+}
