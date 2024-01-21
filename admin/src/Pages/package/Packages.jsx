@@ -22,7 +22,7 @@ function Packages() {
 
   const handleDlt = (id) => {
     try {
-      axios.delete(`${baseUrl}/taxi/${id}`);
+      axios.delete(`${baseUrl}/pack/${id}`);
       setData(data.filter((item) => item.id !== id));
       console.log(`deleted room ${id}`);
       window.location.reload();

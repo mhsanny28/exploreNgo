@@ -103,18 +103,18 @@ const Package = () => {
                       Taxi
                     </h2>
                     <p className="font-semibold text-sm text-gray-200">
-                      {pp.taxi.carName}
+                      {pp.taxi?.carName}
                     </p>
 
                     <h2 className="font-semibold text-lg text-white mt-3">
                       PhotoGrapher
                     </h2>
                     <p className="font-semibold text-sm text-gray-200">
-                      {pp.photographer.name}
+                      {pp.photographer?.name}
                     </p>
 
                     <p className="font-semibold text-sm text-gray-200">
-                      Camera Model: {pp.photographer.cameraModel}
+                      Camera Model: {pp.photographer?.cameraModel}
                     </p>
 
                     <p className="mt-2 font-bold">Package Price: {pp.price}</p>
